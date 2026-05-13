@@ -237,7 +237,28 @@ const uiEvents = () => {
             easing: 'ease-in-out'
        });
     });
-}   
+
+    document.getElementById('program-select').addEventListener('change', (e) => {
+        if (e.target.value === 'it') {
+            cy.animate({
+                fit: {
+                    eles: cy.$('#IT_Foundation, #Major_Tracks_Group'),
+                },
+                duration: 700,
+                easing: 'ease-in-out'
+            });
+        } else if (e.target.value === 'cs') {
+            if (initialPan && initialZoom) {
+                cy.animate({
+                    pan: initialPan,
+                    zoom: initialZoom,
+                    duration: 700,
+                    easing: 'ease-in-out'
+                });
+            }
+        }
+    });
+}
 
 const initCy = (data) => {
     cy = cytoscape({
@@ -249,6 +270,9 @@ const initCy = (data) => {
     });
 }
 
+let initialPan = null;
+let initialZoom = null;
+
 fetch(BASE_URL + '/WEB/academics/planner/prerequisites.json?v=' + new Date().getTime())
     .then(res => res.json())
     .then(data => {
@@ -259,6 +283,8 @@ fetch(BASE_URL + '/WEB/academics/planner/prerequisites.json?v=' + new Date().get
         updateCreditcount();
         cy.center(cy.$('#MATH130'));
         cy.panBy({ x: 0, y: -280 });
+        initialPan = { ...cy.pan() };
+        initialZoom = cy.zoom();
         if (typeof lucide !== 'undefined') {
             lucide.createIcons();
         }

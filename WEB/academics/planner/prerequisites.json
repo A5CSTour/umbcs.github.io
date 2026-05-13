@@ -646,6 +646,1118 @@
         "x": 170,
         "y": 1166
       }
+    },
+    {
+      "data": {
+        "id": "IT_Foundation",
+        "name": "IT Foundation"
+      },
+      "position": {
+        "x": 2605,
+        "y": 235
+      }
+    },
+    {
+      "data": {
+        "id": "Problem_Solving_Group",
+        "name": "Problem Solving Course (3 Credits)",
+        "parent": "IT_Foundation"
+      },
+      "position": {
+        "x": 2535,
+        "y": 325
+      }
+    },
+    {
+      "data": {
+        "id": "Statistics_Group",
+        "name": "Statistics Course (3 Credits)",
+        "parent": "IT_Foundation"
+      },
+      "position": {
+        "x": 2155,
+        "y": 325
+      }
+    },
+    {
+      "data": {
+        "id": "Programming_Group",
+        "name": "Programming Courses (6 to 8 Credits)",
+        "parent": "IT_Foundation"
+      },
+      "position": {
+        "x": 2950,
+        "y": 170
+      }
+    },
+    {
+      "data": {
+        "id": "200_Level_Core_Group",
+        "name": "200-Level Core Courses (15 Credits)"
+      },
+      "position": {
+        "x": 2605,
+        "y": 720
+      }
+    },
+    {
+      "data": {
+        "id": "Major_Tracks_Group",
+        "name": "Major Tracks"
+      },
+      "position": {
+        "x": 2155,
+        "y": 1590
+      }
+    },
+    {
+      "data": {
+        "id": "Business_Intelligence_Track",
+        "name": "1. Business Intelligence Track (5 courses required)",
+        "parent": "Major_Tracks_Group"
+      }
+    },
+    {
+      "data": {
+        "id": "BI_Subgroup_A",
+        "name": "Sub-Group A (Choose 3)",
+        "parent": "Business_Intelligence_Track"
+      }
+    },
+    {
+      "data": {
+        "id": "BI_Subgroup_B",
+        "name": "Sub-Group B (Choose 2)",
+        "parent": "Business_Intelligence_Track"
+      }
+    },
+    {
+      "data": {
+        "id": "Computer_Forensics_Track",
+        "name": "2. Computer Forensics Track (5 courses required)",
+        "parent": "Major_Tracks_Group"
+      }
+    },
+    {
+      "data": {
+        "id": "Information_Architecture_Track",
+        "name": "3. Information Architecture Track (4 courses required)",
+        "parent": "Major_Tracks_Group"
+      }
+    },
+    {
+      "data": {
+        "id": "System_Administration_Track",
+        "name": "4. System Administration Track (4 courses required)",
+        "parent": "Major_Tracks_Group"
+      }
+    },
+    {
+      "data": {
+        "id": "Professional_Electives_Group",
+        "name": "Professional Electives (9 Credits)"
+      },
+      "position": {
+        "x": 3470,
+        "y": 1685
+      }
+    },
+    {
+      "data": {
+        "id": "Project_Management_Group",
+        "name": "Project Management Course (3 Credits)"
+      },
+      "position": {
+        "x": 2500,
+        "y": 3000
+      }
+    },
+    {
+      "data": {
+        "id": "Capstone_Group",
+        "name": "Capstone (3 Credits)"
+      },
+      "position": {
+        "x": 2500,
+        "y": 3200
+      }
+    },
+    {
+      "position": {
+        "x": 2535,
+        "y": -15
+      },
+      "data": {
+        "id": "MATH115",
+        "name": "College Algebra",
+        "group": "MATH",
+        "description": "Designed primarily but not exclusively for students seeking a stronger foundation in algebra before taking MATH 129 or MATH 130. Topics include basic algebra concepts, linear equations and inequalities and inequalities, properties of functions, linear and quadratic functions, absolute value equations and inequalities, systems of equations.",
+        "prereq_text": "Pre-requisite = Appropriate scores on the Math Placement Test or completion of Math 114QR or  Math 125Degree students only"
+      }
+    },
+    {
+      "position": {
+        "x": 2535,
+        "y": 325
+      },
+      "data": {
+        "id": "IT110",
+        "name": "Information Technology Problem Solving",
+        "group": "IT",
+        "parent": "Problem_Solving_Group",
+        "description": "Several IT concepts are introduced including programming, databases, networking, web servers and how they work together in a modern system. Students work in groups to implement examples of these systems. The course examines the importance of key issues such as security, privacy, and ethics. Students should leave the course with an understanding of the components of modern systems and the scope of knowledge needed to become an IT professional.",
+        "prereq_text": "Pre-requisite = Placement into Math 115 or higher level math course or completion of Math 115 or higher level math course."
+      }
+    },
+    {
+      "position": {
+        "x": 2155,
+        "y": 325
+      },
+      "data": {
+        "id": "IT111L",
+        "name": "Managerial Statistics",
+        "group": "IT",
+        "parent": "Statistics_Group",
+        "description": "Provides the student with the basic statistical techniques needed for business decision making in areas such as operations management, quality improvement, marketing research, finance, and general management. The course examines collection and presentation of data, frequency distributions, basic probability, statistical inference, and regression. Students use statistical software for data presentation and analysis.",
+        "prereq_text": "Co-requisite or pre-requisite = IT 110 or MSIS 110"
+      }
+    },
+    {
+      "position": {
+        "x": 2155,
+        "y": 500
+      },
+      "data": {
+        "id": "MSIS111L",
+        "name": "Managerial Statistics",
+        "group": "MSIS",
+        "parent": "Statistics_Group",
+        "description": "Provides the student with the basic statistical techniques needed for business decision making in areas such as operations management, quality improvement, marketing research, finance, and general management. The course examines collection and presentation of data, frequency distributions, basic probability, statistical inference, and regression. Students use statistical software for data presentation and analysis.",
+        "prereq_text": "Pre-req or Co-req = MSIS 110 MGT students only."
+      }
+    },
+    {
+      "position": {
+        "x": 2155,
+        "y": 170
+      },
+      "data": {
+        "id": "MATH125",
+        "name": "Introductory Statistics",
+        "group": "MATH",
+        "parent": "Statistics_Group",
+        "description": "This course is a concept-driven introduction to statistics and statistical reasoning. It covers descriptive statistics, including histograms, the normal curve, and linear correlation and regression; probability sufficient to enable development of inferential statistics; and topics in statistical inference. The latter will include sampling theory, confidence intervals and their interpretation, tests of hypotheses, and chi-square tests.",
+        "prereq_text": "Pre-requisite: MATH 114Q or 115 or 129 or 130 or 134 or 135 or 140 or 145 or appropriate recent scores on the Math Placement Test"
+      }
+    },
+    {
+      "position": {
+        "x": 2870,
+        "y": 170
+      },
+      "data": {
+        "id": "IT114L",
+        "name": "Introduction To Java",
+        "group": "IT",
+        "parent": "Programming_Group",
+        "description": "An introductory course in Java programming that exposes students to the concepts involved in using a higher-level, object-oriented programming language. The course will explain the program development process and give students lots of hands-on experience writing small Java programs.",
+        "prereq_text": "Pre-requisite = Placement into Math 115 or higher level math course or completion of Math 115 or higher level math course."
+      }
+    },
+    {
+      "position": {
+        "x": 3055,
+        "y": -15
+      },
+      "data": {
+        "id": "IT116",
+        "name": "Introduction to Scripting",
+        "group": "IT",
+        "parent": "Programming_Group",
+        "description": "Information Technology specialists do no spend most of their time programming, but they must perform many routine tasks to keep the systems maintained in good working order.Automating these routine tasks, allows this work to be performed quickly and consistently, freeing the specialist for work that requires time and judgement. This automation is accomplished by writing small programs which are specific to the task at hand. These programs are best written in programming languages which are simple and flexible. This makes languages designed for large projects, such as Java and C++, unsuitable for this task.To meet this need, scripting languages such as Perl, Python, and PHP have been created. These languages are designed to be easier to learn than more demanding programming languages such as Java, C and C++.This course will teach the basics of scripting language and show students how it can be used to automate routine system administration and workflow tasks.",
+        "prereq_text": "Pre-req: MATH 115"
+      }
+    },
+    {
+      "position": {
+        "x": 3055,
+        "y": 235
+      },
+      "data": {
+        "id": "IT117",
+        "name": "Intermediate Scripting",
+        "group": "IT",
+        "parent": "Programming_Group",
+        "description": "This course, a continuation of IT 116 Introduction to Scripting, covers advanced features of scripting languages such as objects and regular expressions.Programming assignments will emphasize tasks that a system administrator might perform.Students will learn to use an industry standard framework to assist in the creation of a web application.",
+        "prereq_text": "Pre-req: IT 116"
+      }
+    },
+    {
+      "position": {
+        "x": 2870,
+        "y": 325
+      },
+      "data": {
+        "id": "MSIS310",
+        "name": "Intro to Coding for Business",
+        "group": "MSIS",
+        "parent": "Programming_Group",
+        "description": "This course introduces students to graphical and procedural coding concepts using modern programming languages. The emphasis is on developing algorithms to solve a wide variety of business problems, and geared to students with no prior exposure to computer science or coding. It teaches students to think logically, and potentially advance on to further programming courses.",
+        "prereq_text": "Pre-req = MSIS 110 or IT 110 and a minimum of 60 creditsMGT students only"
+      }
+    },
+    {
+      "position": {
+        "x": 2240,
+        "y": 720
+      },
+      "data": {
+        "id": "IT230L",
+        "name": "Relational Databases",
+        "group": "IT",
+        "parent": "200_Level_Core_Group",
+        "description": "This course provides a thorough review of basic relational database concepts and how to apply these concepts to a variety of application problems. The course focuses on the use and properties of relational database management systems. Topics covered include DBMS architecture levels, data modeling, data definition and manipulation capabilities of Structured Query Language programming, and programming techniques for accessing relational databases.",
+        "prereq_text": "None"
+      }
+    },
+    {
+      "position": {
+        "x": 2390,
+        "y": 720
+      },
+      "data": {
+        "id": "IT240",
+        "name": "Web Fluency",
+        "group": "IT",
+        "parent": "200_Level_Core_Group",
+        "description": "This course develop an in-depth understanding of how the web works from a technical standpoint, meaning how dynamic pages are created and delivered by web servers, and then used by browsers and other clients. Students demonstrate this understanding by achieving competency by using a current integrated development environment (IDE) to develop web applications.",
+        "prereq_text": "None"
+      }
+    },
+    {
+      "position": {
+        "x": 2535,
+        "y": 720
+      },
+      "data": {
+        "id": "IT244",
+        "name": "Introduction to Linux/Unix",
+        "group": "IT",
+        "parent": "200_Level_Core_Group",
+        "description": "A course designed to introduce students to Linux and UNIX. Students will install, set up, and operate standard tools and learn how they operate together. By course end students will have installed a fully functional Internet server while understanding its structure. Security issues of operating systems will be studied throughout the course.",
+        "prereq_text": "Pre-req: IT 110 or MSIS 110 or Co-req: IT 110 or MSIS 110"
+      }
+    },
+    {
+      "position": {
+        "x": 2750,
+        "y": 720
+      },
+      "data": {
+        "id": "IT246",
+        "name": "Introduction to Networks",
+        "group": "IT",
+        "parent": "200_Level_Core_Group",
+        "description": "We will study basic data communication and networking concepts for LAN and WAN; network protocols with emphasis on Ethernet, PPP, TCP/IP, and WWW protocols, and mobile and wireless networks. Network applications include Telnet, ftp, email, distributed file systems, and client-server applications. We survey network security issues. We will do hands-on network simulation and network sniffing exercises to see how these technologies work in practice.",
+        "prereq_text": "Pre-req: IT 110 or MSIS 110 or Co-req: IT 110 or MSIS 110"
+      }
+    },
+    {
+      "position": {
+        "x": 2950,
+        "y": 720
+      },
+      "data": {
+        "id": "IT285L",
+        "name": "Social Issues and Ethics",
+        "group": "IT",
+        "parent": "200_Level_Core_Group",
+        "description": "This course explores some of the ethical and societal issues that are raised by computing. Topics include privacy, freedom of expression, intellectual property, liability, the effect of computing on social interaction, and human-computer interface issues. Students write an analytical paper on an appropriate topic and also present their findings to the class.",
+        "prereq_text": "None"
+      }
+    },
+    {
+      "position": {
+        "x": 2390,
+        "y": 1100
+      },
+      "data": {
+        "id": "IT370",
+        "name": "IT 370: Introduction to Analytics",
+        "group": "IT",
+        "parent": "BI_Subgroup_A",
+        "description": "This course introduces concepts in analytics and explores how analytics can help improve management effectiveness through better decision-making in several functional areas such as marketing, finance, and manufacturing. This course will explore applications of analytics, such as online analytical processing (OLAP), dashboards, management reporting, performance measurement, and data visualization, and how these are developed and applied. It will also investigate analytics in context of decision-making and closely related areas such as data warehousing, data marts, web analytics, real-time data, and mobile applications. Students will gain hands-on experience through assignments and projects using a comprehensive set of current tools.",
+        "prereq_text": "Pre-req:  MSIS 110 or IT 110"
+      }
+    },
+    {
+      "position": {
+        "x": 2390,
+        "y": 1235
+      },
+      "data": {
+        "id": "IT471",
+        "name": "IT 471: Data Warehousing for Business Intelligence",
+        "group": "IT",
+        "parent": "BI_Subgroup_A",
+        "description": "this course provides students with the technical skills required to plan and implement a data warehouse using a database management system. It describes basic data warehousing concepts. The course covers design and implementation of data marts and operational data stores. Topics include dimensional data modeling for warehouses, CUBES and storage modes including MOLAP, ROLAP and HOLAP, and data warehousing infrastructure and analytical service tool selection. This course involves designing a data warehousing system and the implementation of a database with a stare schema, gathering data from primary data sources, transforming data, and loading it into a database management system. Students create cubes using OLAP and analyze cube data using client application.",
+        "prereq_text": "Pre-req: IT 110 or MSIS 110 and IT/MSIS 230L or MSIS 411"
+      }
+    },
+    {
+      "position": {
+        "x": 2390,
+        "y": 1330
+      },
+      "data": {
+        "id": "IT472",
+        "name": "IT 472: Data Mining for Management Applications",
+        "group": "IT",
+        "parent": "BI_Subgroup_A",
+        "description": "Data Mining provides a set of techniques that explore large quantities of data to discover meaningful patterns and make predictions. It helps businesses analyze data from different perspectives, gain insights into the vast amount of data extracted from internal and external sources, and to measure performance, reduce costs, and seek competitive advantage. As a result, data mining has become vital to most enterprises today. This course introduces data mining through an investigation of its underlying concepts, and explores practical methods for its application. Students will learn the appropriate use of several data mining methods based on unsupervised algorithms such as cluster analysis and association rules, and those based on supervised algorithms such as decision trees and neural networks. Students will gain experience with applications of data mining using current data mining software.",
+        "prereq_text": "pre-reqs: IT 110 OR MSIS 110 AND one of the following: MSIS/IT 111L or MATH 125 or ECON 205 or PSYCH 370 or SOCIOL 350."
+      }
+    },
+    {
+      "position": {
+        "x": 2390,
+        "y": 1460
+      },
+      "data": {
+        "id": "MSIS415",
+        "name": "MSIS 415: Advanced Coding for Analytics",
+        "group": "MSIS",
+        "parent": "BI_Subgroup_A",
+        "description": "An increasing number of businesses are seeing values in data and seeking talents for data analytics. This course aims to teach how the write codes to implement data pre-processing, machine learning models, predictive analysis, and visualization. Useful packages that are closely related to analytics will be introduced to equip students with necessary toolkits for processing and analyzing data. The course is designed to train students as experts in analytics with sufficient coding skills.",
+        "prereq_text": "Pre-requisite:  MSIS 310 or IT 116 and 60 credits completed.MGT and IT students only"
+      }
+    },
+    {
+      "position": {
+        "x": 1760,
+        "y": 1100
+      },
+      "data": {
+        "id": "IT220",
+        "name": "IT 220: Computer Forensics I",
+        "group": "IT",
+        "parent": "Computer_Forensics_Track",
+        "description": "This course covers topics related to computer forensics and criminal justice and is, by its nature, a multi-disciplinary course. Forensics is the use of science in a course of law. Computer Forensics and this course looks specifically at how one obtains evidence off of a computer, other digital devices and from network messages and logs, preserving the evidentiary chain, and the legal aspects of the search and seizure of computers and related equipment/information.",
+        "prereq_text": "pre-reqs: MSIS 110 OR IT 110 OR permission of instructor"
+      }
+    },
+    {
+      "position": {
+        "x": 1960,
+        "y": 1100
+      },
+      "data": {
+        "id": "IT221",
+        "name": "IT 221: Computer Forensics II",
+        "group": "IT",
+        "parent": "Computer_Forensics_Track",
+        "description": "This course is designed to expose students to advanced concepts in digital/computer forensic analysis. As with Computer Forensics I, there will be a balance between legal and technical aspects, although this course will focus more on the use of specific tools. For example the students will practice Disk and other digital device analysis using professional proprietary widely-used software tools such as Encase.",
+        "prereq_text": "Pre-requisite =  MSIS 110 or IT 110 or permission of instructor"
+      }
+    },
+    {
+      "position": {
+        "x": 1760,
+        "y": 1410
+      },
+      "data": {
+        "id": "IT420",
+        "name": "IT 420: Network and Mobile Forensics",
+        "group": "IT",
+        "parent": "Computer_Forensics_Track",
+        "description": "This course deals with the collection, preservation, and analysis of network generated digital evidence such that this evidence can be successfully presented ina court of law (both civil and criminal). The course provides a comprehnsive understanding of network forensic analysis principles as well as an introduction to mobile (i.e. Cell-phone/PDA) forensics. Within the context of forensics security, network infrastructures, topologies, and protocols are introduced. Students will understand, learn, and experience the relationship between forensic analysis and network security technologies.",
+        "prereq_text": "None"
+      }
+    },
+    {
+      "position": {
+        "x": 1960,
+        "y": 1410
+      },
+      "data": {
+        "id": "IT421",
+        "name": "IT 421: Digital Forensics/Malware Analysis",
+        "group": "IT",
+        "parent": "Computer_Forensics_Track",
+        "description": "This course provides an introduction to advanced digital forensics topics relating to malicious software (malware) and its analysis. Malware (virus, worms, rootkits, spam...) represents an increasing information security threat to computer systems and networks. Students will review software engineering design fundamentals and reverse engineering techniques utilized to conduct static and dynamic forensic analysis on computer systems and networks on multiple platforms (e.g.Windows, Linux..). Students will learn about the importance of forensic principles, legal considerations, digital evidence controls, and documentation of forensic procedures in the context of malware. In addition, students will study remediation measures for malware infection.",
+        "prereq_text": "pre-reqs: MSIS 110 OR IT 110 AND IT 244"
+      }
+    },
+    {
+      "position": {
+        "x": 1760,
+        "y": 1235
+      },
+      "data": {
+        "id": "SOCIOL104",
+        "name": "SOCIOL 104: Introduction to Systems of Criminal Justice",
+        "group": "SOCIOL",
+        "parent": "Computer_Forensics_Track",
+        "description": "This course introduces students to the social scientific study of crime and criminal justice systems through a sociological perspective. Topics covered will include theories of the causes of crime; the structure and function of the police, courts, and correctional systems; and the experiences of people who are processed through the justice system. Special attention will be paid to controversial issues and public policy debates, and students will consider proposals for criminal justice reform. Students will also consider the relationships between criminal justice systems and society.",
+        "prereq_text": "None"
+      }
+    },
+    {
+      "position": {
+        "x": 1960,
+        "y": 1235
+      },
+      "data": {
+        "id": "SOCIOL364",
+        "name": "SOCIOL 364: Internet, Society, and Cyber Crime",
+        "group": "SOCIOL",
+        "parent": "Computer_Forensics_Track",
+        "description": "This course provides an overview of cybercrime and related criminal justice system responses. Topics covered will include the types and extent of cybercrimes, how law enforcement officers respond to these crimes, the constitutional rights of computer users, the law and policies that govern cybercrime detection and prosecution, and the technologies used by law enforcement in the pursuit of cybercriminals. Special attention will be paid to the rapidly changing role of technology in society, and the ways the technological advances challenge traditional understands of deviance and privacy.",
+        "prereq_text": "Pre-requisite: SOCIOL 101 and SOCIOL 262."
+      }
+    },
+    {
+      "position": {
+        "x": 2750,
+        "y": 1100
+      },
+      "data": {
+        "id": "IT360",
+        "name": "IT 360: Enterprise Software",
+        "group": "IT",
+        "parent": "BI_Subgroup_B",
+        "description": "This course explains the core applications of a typical organization to support their fundamental business functions. It explains the role of IT in attaining competitive advantage and how modern organizations configure commercially available products to satisfy their information needs. The course makes extensive use of collaborative technologies and business applications to demonstrate the work of virtual teams and how they implement their operations.",
+        "prereq_text": "Pre-requisite = IT 110 or MSIS 110 and 60 credits"
+      }
+    },
+    {
+      "position": {
+        "x": 2750,
+        "y": 1235
+      },
+      "data": {
+        "id": "IT428L",
+        "name": "IT 428L: Information System Security",
+        "group": "IT",
+        "parent": "BI_Subgroup_B",
+        "description": "This course provides a broad overview of the threats to the security of information systems, the responsibilities and basic tools to ensure information security, and the levels of training and expertise needed in organizations to reach and maintain a state of acceptable security. Students will learn and understand the key issues associated with protecting information assets, determining the levels of protection and response to security incidents, and designing a consistent, reasonable information security system, with appropriate intrusion detection and reporting features.",
+        "prereq_text": "Prerequsite = IT 110 and 60 credits"
+      }
+    },
+    {
+      "position": {
+        "x": 2750,
+        "y": 1335
+      },
+      "data": {
+        "id": "IT461L",
+        "name": "IT 461L: System Analysis and Design",
+        "group": "IT",
+        "parent": "BI_Subgroup_B",
+        "description": "Introduces recent approaches to the analysis and design of computer information systems, including the hands-on use of computer aided software engineering (CASE) tools. The changing role of the systems analyst in both operations and systems applications in today's organizations is examined. The course critically analyzes systems development methodologies, including life cycle models and prototyping; reviews user-led developments and current approaches which facilitate user-developer collaboration; discusses effective diagramming and notational techniques now available to define and document functional requirements and operational business processes; and examines current methods used to test and evaluate the accuracy, completeness, and usability of documented requirements and convert them into efficient systems design or re-engineering processes. Topics include CASE tools, module and transaction design, human-computer interfaces, and system configuration. This course includes practical experience in analyzing and designing an organizational application. It discusses the concept of quality as applied to information systems and business process redesign as well as the role of information systems in managing quality within an organization.",
+        "prereq_text": "Prerequsite = IT 110 and 60 credits"
+      }
+    },
+    {
+      "position": {
+        "x": 2750,
+        "y": 1460
+      },
+      "data": {
+        "id": "IT456",
+        "name": "IT 456: Information Storage and Management",
+        "group": "IT",
+        "parent": "BI_Subgroup_B",
+        "description": "This course provides a thorough review of basic relational database concepts and how to apply these concepts to a variety of application problems. The course focuses on the use and properties of relational database management systems. Topics covered include DBSM architecture levels, data modeling, data definition and manipulation capabilities of Structured Query Language programming, and programming techniques for accessing relational databases.",
+        "prereq_text": "Pre-requisites: IT 110 OR MSIS 110 AND MSIS 230 or IT 230 OR MSIS 411"
+      }
+    },
+    {
+      "position": {
+        "x": 2750,
+        "y": 1590
+      },
+      "data": {
+        "id": "IT460",
+        "name": "IT 460: Integration Methodologies and Tools",
+        "group": "IT",
+        "parent": "BI_Subgroup_B",
+        "description": "This course develops an understanding of applications architecture based on building IT systems out of common parts and a service-oriented architecture. These are collections of information services, modules and functional components that can be reused in a variety of common contexts. The course will apply several tools to exemplify the use of heterogeneous reusable modules to fulfill an information service. An underlying methodology for integration will be applied.",
+        "prereq_text": "Prerequsite = IT 110 and 60 credits"
+      }
+    },
+    {
+      "position": {
+        "x": 1860,
+        "y": 1690
+      },
+      "data": {
+        "id": "IT341",
+        "name": "IT 341: Introduction to System Administration",
+        "group": "IT",
+        "parent": "System_Administration_Track",
+        "description": "This is an introduction to the process of choosing, installing, configuring, and maintaining UNIX operating systems such as Linux. Topics include user management, file system management, security, networked file systems (NFS), networked information systems (NIS), domain name servers (DNS), mail systems and printers. Students will get practice writing shell scripts. Also, students are introduced to general systems administration policy.",
+        "prereq_text": "Pre-requisite = IT 244"
+      }
+    },
+    {
+      "position": {
+        "x": 1760,
+        "y": 1830
+      },
+      "data": {
+        "id": "IT442",
+        "name": "IT 442: Windows System Administration",
+        "group": "IT",
+        "parent": "System_Administration_Track",
+        "description": "This is an introduction to the process of choosing, installing, configuring, and maintaining Microsoft Windows client and server systems. Topics include user management, file systems, network domains and domain management, mailers, and printing. Students get practice in writing scripts for performing maintenance tasks. Also, students learn how these tasks fit into the more general system administration processes.",
+        "prereq_text": "Pre-requisite =  IT 341"
+      }
+    },
+    {
+      "position": {
+        "x": 1960,
+        "y": 1830
+      },
+      "data": {
+        "id": "IT443",
+        "name": "IT 443: Network Security Administration I",
+        "group": "IT",
+        "parent": "System_Administration_Track",
+        "description": "This course explores the application of policy and techniques to securing both public and private networks. The course is project-based and includes such topics as threat analysis and management, cryptography, firewalls, isolation, issues in securing wireless networks, and certificates.",
+        "prereq_text": "Pre-requisite = IT 341"
+      }
+    },
+    {
+      "position": {
+        "x": 1860,
+        "y": 1975
+      },
+      "data": {
+        "id": "IT444",
+        "name": "IT 444: Network Security Administration II",
+        "group": "IT",
+        "parent": "System_Administration_Track",
+        "description": "This course will focus on network protection (firewall implementation, site-to-site vpn configuration, and identity management), information gathering (port scan, service scan), and penetration testing (internal test and external test). The internal pen-test can cover vulnerability assessment including server vulnerabilities discovery, server attack, client side attack and social engineering attack.",
+        "prereq_text": "Pre-requisite: IT 443"
+      }
+    },
+    {
+      "position": {
+        "x": 2500,
+        "y": 2500
+      },
+      "data": {
+        "id": "IT425L",
+        "name": "Project Management",
+        "group": "IT",
+        "parent": "Project_Management_Group",
+        "description": "Covers techniques and managerial concepts of project management. This course prepares students to manage either complex physical projects or complex software development projects. Topics presented in this course include project life cycles, economic analysis of projects, work breakdown structure, cost estimation, and the scheduling, staffing, directing, and controlling of projects. The course also covers the use of management science techniques and computer software for project management.",
+        "prereq_text": "Pre-requisite = 60 credits"
+      }
+    },
+    {
+      "position": {
+        "x": 2700,
+        "y": 2500
+      },
+      "data": {
+        "id": "IT485",
+        "name": "IT Capstone",
+        "group": "IT",
+        "parent": "Capstone_Group",
+        "description": "Students will work on a semester-long project, particular to their track and meet together with an instructor and with students from other tracks to discuss each other's projects. Students will deliver a product that is appropriate to their track in the IT program. At the end of the semester, students report on their product, both in oral presentations and demonstrations and in writing.",
+        "prereq_text": "Pre-requisite = IT 425"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1060
+      },
+      "data": {
+        "id": "AF210",
+        "name": "Financial Accounting",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Presents the theory and techniques of financial accounting. The course encompasses the basic functions of collecting, processing, and reporting accounting information for interested third parties (e.g. owners, investors, and government) and enables students to analyze, interpret, and use accounting information effectively.",
+        "prereq_text": "Pre-req = a minimum of 15 credits.  MGT students only."
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1150
+      },
+      "data": {
+        "id": "AF211",
+        "name": "Managerial Accounting",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Presents the theory and technique of managerial accounting, from the particular perspective of the manager. The course covers the identification and analysis of the behavior of costs within the organization, and illustrates how managers use such knowledge for planning and control. Major topics include responsibility accounting, comprehensive and cash budgeting, standard job order and process cost systems, cost-volume-profit analysis, cost allocation, activity-based costing, standard costs, and variance analysis.",
+        "prereq_text": "Pre-req = AF 210 and a minimum of 15 credits  MGT majors only."
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1150
+      },
+      "data": {
+        "id": "AF301",
+        "name": "Intro to Financial Management",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Introduces financial management (both short term and long term), specifically what an organization invests in, and how the necessary funds are best raised; the course also acquaints students with various kinds of securities and the operation of financial markets and institutions. Specific topics include ratio analysis, working capital management, financial markets and institutions, the time value of money and capital budgeting, the cost of capital, financial leverage and capital structure, and dividend policy.",
+        "prereq_text": "Pre-requisite = AF 210 and College of Management studentCo-requisite or pre-requisite = AF 211"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1235
+      },
+      "data": {
+        "id": "AF310",
+        "name": "Intermediate Accounting I",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "This course provides knowledge of financial accounting theory, with particular emphasis on the application of theory and on the practical problems arising from the limitations of traditional financial statements. It also provides in-depth analysis of the application of generally accepted accounting principles to asset and current liability items. In addition, students learn to research business problems through the use of the Internet; and discuss ethical issues faced by managers.",
+        "prereq_text": "Pre-req = AF 211,  a minimum of 60 credits.MGT students only"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1235
+      },
+      "data": {
+        "id": "AF311",
+        "name": "Intermediate Accounting II",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": ". This course continues to develop accounting theory, using principles, concepts, and accounting pronouncements to analyze and resolve accounting issues. Students acquire an understanding of issues unique to corporations and complete the study of the balance sheet by examining long-term debt and equity issues. In addition, they discuss ethical issues faced by managers in today's business world. Continuing emphasis will be placed on computer application skills, research skills and written and oral communication skills.",
+        "prereq_text": "Pre-req = AF 310, a minimum of 60 credits.MGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1335
+      },
+      "data": {
+        "id": "AF315",
+        "name": "Accounting Information Systems",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "This course examines the design, implementation, operation, and control of contemporary computer-based accounting information systems. Students complete projects which require the use of current information technology to solve real world problems.",
+        "prereq_text": "Pre-req = AF 211, a minimum of 60 credits.MGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1410
+      },
+      "data": {
+        "id": "AF330",
+        "name": "Business Law",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Examines the body of law involved in the formation, operation, and termination of business organizations; in contracts; in debtor-creditor relations; in uniform commercial code (sales, commercial paper, secured transactions); in property, estate, and trust; in government regulations; and in issues of CPA liability. Course content encompasses the topics to be found on the CPA law examination.",
+        "prereq_text": "Pre-req = AF 211 and a minimum of 60 creditsMGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1510
+      },
+      "data": {
+        "id": "AF335",
+        "name": "Investments",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Provides the student with an understanding of capital market securities, operations, valuation, and investment techniques. Specifically, the course covers definitions of various investment vehicles, operation of the NYSE and NASDAQ markets, portfolio theory (CAPM and APT), valuation of stocks and bonds, and investor capital allocation decisions, including discussions of mutual fund selection.",
+        "prereq_text": "Pre-req = AF 301 and  a minimum of 60 credits. MGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1510
+      },
+      "data": {
+        "id": "AF363",
+        "name": "Cost Accounting",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Examines the design, implementation and operation of cost accounting systems. With primary emphasis on cost analysis in manufacturing, the course explores cost standards, actual performance, and variances. To a lesser extent, it also applies concepts of cost accounting to manufacturing and service organizations.",
+        "prereq_text": "Pre-req = AF 211,  a minimum of 60 credits.MGT students only"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1590
+      },
+      "data": {
+        "id": "AF435",
+        "name": "Derivative Securities",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Derivative securities are contracts whose payoffs are derived from the outcome of another security or asset price. This course focuses on the valuation and (mis)use of derivative securities. Specifically the course covers: history of derivatives, valuation of forwards, futures, swap and option contracts and the use of derivative securities to hedge financial risk, particularly interest rate and foreign currency risk.",
+        "prereq_text": "Pre-req =  AF 301 and a minimum of 60 creditsMGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1590
+      },
+      "data": {
+        "id": "AF445",
+        "name": "Markets & Financial Inst",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Examines the role of financial markets and institutions in the economy. The course focuses on the working of various financial markets and how financial institutions and other users interact with financial markets. Topics include interest rates; term structure of interest rates; money and capital markets; innovations in capital markets; credit risk and asset and liability management; international financial markets; currency fluctuations; and management of currency risk.",
+        "prereq_text": "Pre-req = AF 301, a minimum of 60 credits, MGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1685
+      },
+      "data": {
+        "id": "AF450",
+        "name": "Federal Taxation I",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Studies the law and procedures of the federal income taxation of individual taxpayers. The course presents the income tax concepts of gross income recognition, deductions, tax credits, and the effects of property transactions.",
+        "prereq_text": "Pre-req = AF 211, a minimum of 60 credits, MGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1685
+      },
+      "data": {
+        "id": "AF451",
+        "name": "Federal Taxation II",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Applies the income tax concepts presented in AF 450 to corporations, partnerships, Subchapter S corporations, trusts, and estates. The course introduces the concepts of the federal gift tax and the federal estate tax.",
+        "prereq_text": "Pre-req =  AF 450 and a minimum of 60 creditsMGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1780
+      },
+      "data": {
+        "id": "AF455",
+        "name": "Intl Financial Management",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Provides the student with the knowledge and skills needed by managers in organizations active in international trade, facing foreign competition, or involved in foreign direct investment. The course focuses on the unique international variables and constraints which modify single-country financial management concepts. Topics include the determination of exchange rates, forecasting exchange rates, foreign exchange risk management, transfer pricing policies, multinational capital budgeting with cash flows in more than one currency, international financial markets, and country risk in multinational investment decisions.",
+        "prereq_text": "Pre-req = AF 301, a minimum of 60 credits, MGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1780
+      },
+      "data": {
+        "id": "AF470",
+        "name": "Financial Auditing",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Encompasses both the theory and the technique of financial auditing. The course examines the professional role of the auditor, along with its operational, ethical, and legal implications. Areas typically covered include professional auditing standards, the auditors' report, specialized reporting issues, auditors' legal responsibilities, gathering and evaluating evidence, the internal control structure audit sampling, and the Code of Professional Conduct. Discussions consider issues of judgment typically faced by auditors in practice.",
+        "prereq_text": "Pre-req = AF 311, a minimum of 60 credits, MGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1875
+      },
+      "data": {
+        "id": "AF480",
+        "name": "Accounting Internship",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Provides students with opportunities for full- or part-time work experience in an accounting or finance setting. On-site supervisors and faculty sponsors provide guidance and supervision for each intern.",
+        "prereq_text": "None"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1875
+      },
+      "data": {
+        "id": "AF495",
+        "name": "Financial Policy",
+        "group": "AF",
+        "parent": "Professional_Electives_Group",
+        "description": "Utilizes the case study method to apply theoretical concepts and techniques learned in previous courses to the analysis of real situations and practical problems in financial management and policy. Some cases will have a strong international focus. It provides an opportunity for reviewing, integrating, and putting into practice the skills acquired in previous courses.",
+        "prereq_text": "Pre-req = AF 325 and 335, and a minimum of 60 credits, MGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1060
+      },
+      "data": {
+        "id": "BIOL360",
+        "name": "Bioinformatics",
+        "group": "BIOL",
+        "parent": "Professional_Electives_Group",
+        "description": "This course will provide a fundamental overview of bioinformatics, which is the collection, organization, and analysis of biological information. Topics include data searches and sequence alignments, substitution patterns, phylogenetics, genomics, protein and RNA structure prediction, and proteomics. Designed as a required course for biotechnology track students and other students interested in biotechnology careers of graduate study in biological sciences",
+        "prereq_text": "Pre-req = BIOL 210 or 212 and BIOL 252 or 254 and BIOL 290"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1960
+      },
+      "data": {
+        "id": "MGT470",
+        "name": "Entrepreneurship & Innovation",
+        "group": "MGT",
+        "parent": "Professional_Electives_Group",
+        "description": "Introduces students to entrepreneurship and small business management. This course focuses on writing business plans, analyzing financial data, and exploring legal issues in the creation of new enterprises. The course also provides students with an opportunity to evaluate their career interests and personal skills in the area of entrepreneurship and small business management.",
+        "prereq_text": "Pre-req: MGT 303, BC 290  and a minimum of 60 creditsMGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1960
+      },
+      "data": {
+        "id": "MGT303",
+        "name": "Managing Organizations",
+        "group": "MGT",
+        "parent": "Professional_Electives_Group",
+        "description": "Examines theory, research, and practice in the management of organizations. Students learn to make use of analytical tools for recognizing diagnosing, and acting on managerial problems related to organizations to their objectives, and to the development of human resources. The course emphasizes at the macro level, such as organizational analysis and design, and at the micro level, such as managerial behavior motivation, and interpersonal relations.",
+        "prereq_text": "Pre-req = Grade of B- or better in BC 290 (or ACM 299) or appropriate score on CMWA and a minimum of 60 credits. This class is open to MGT majors only."
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 2050
+      },
+      "data": {
+        "id": "MGT330",
+        "name": "Business Env & Public Policy",
+        "group": "MGT",
+        "parent": "Professional_Electives_Group",
+        "description": "Examines the interaction of business and government in the contemporary public policy process in the United States. The course helps students become familiar with the private sector's effect on the public sector as well as the public's effect on the private. It also examines how government promotes, regulates, and competes with private enterprise.",
+        "prereq_text": "Pre-req = Grade of B- or better in BC 290 (or ACM 299) or appropriate score on CMWA and a minimum of 60 credits. This class is open to MGT majors only."
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 2050
+      },
+      "data": {
+        "id": "MGT331",
+        "name": "Managerial Ethics",
+        "group": "MGT",
+        "parent": "Professional_Electives_Group",
+        "description": "Examines the kinds of ethical principles (e.g. justice, equality, rights and obligations, and the public interest) generally offered in justification of ethical judgments. Students learn to apply these principles to the social and economic issues that managers face, such as pollution, safety, discrimination, and fiduciary and product responsibilities. The course includes a research paper on an ethical problem in management.",
+        "prereq_text": "Pre-req = MGT 303, BC290 and a  minimum of 60 credits MGT majors only."
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 2130
+      },
+      "data": {
+        "id": "MKT301",
+        "name": "Principles of Marketing",
+        "group": "MKT",
+        "parent": "Professional_Electives_Group",
+        "description": "Develops students' understanding of marketing principles underlying the selection and assessment of markets, and the development and delivery of products and services.",
+        "prereq_text": "Pre-req = Grade of B- or better in BC 290 (or ACM 299) or appropriate score on CMWA and a minimum of 60 credits. This class is open to MGT majors only."
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 2130
+      },
+      "data": {
+        "id": "MKT310",
+        "name": "Data Analysis for Marketing",
+        "group": "MKT",
+        "parent": "Professional_Electives_Group",
+        "description": "Familiarizes students with data analysis techniques for marketing decision making. Emphasis is given to secondary data and secondary data processing. The course makes extensive use of computers and commercial software: word processing and graphics programs, spreadsheets, and statistical analysis packages containing data description, bivariate and multivariate models. It also emphasizes report writing and oral presentation skills.",
+        "prereq_text": "Pre-req = MKT 301 and MSIS 111 (or approved substitutes)and a minimum of 60 creditsMGT majors only"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 2230
+      },
+      "data": {
+        "id": "MSIS212",
+        "name": "Managerial Decision Making",
+        "group": "MSIS",
+        "parent": "Professional_Electives_Group",
+        "description": "Provides the student with knowledge of more advanced decision making tools building upon the skills developed in MSIS 110 and MSIS 111. The emphasis of this course is on using management information systems and quantitative analysis tools to improve the quality of managerial decision making. Topics include decision theory and analysis, optimization, simulation, and forecasting. Students use advanced functions in spreadsheet packages and decision support software for analysis of practically oriented problems in various management setting.",
+        "prereq_text": "Pre-req = MSIS 110 or IT 110 and MSIS/IT 111L ,MATH 125, ECON 205, PSYCH 270 or 370, SOCIOL 350"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 2230
+      },
+      "data": {
+        "id": "MSIS301",
+        "name": "Operations Management",
+        "group": "MSIS",
+        "parent": "Professional_Electives_Group",
+        "description": "Introduces the student to the concepts and techniques used by organizations to support their fundamental task of producing goods and services. This course includes a balanced view of the manufacture of tangible goods and the production of less-tangible services. Topics covered include product and process strategy, quality management, production planning for manufacturing and for service organizations, and inventory management. The course also includes an examination of the interactions of operations management, quantitative decision making techniques, and information technology. Students use management science techniques and software to examine a wide variety of operations management problems.",
+        "prereq_text": "Pre-requisite:  MSIS 110 or IT 110 and MSIS 111 (or ECON 205 or MATH 125 or PSYCH 370 or SOCIOL 350) and MSIS 212 and minimum of 60 completed credits MGT students only"
+      }
+    },
+    {
+      "position": {
+        "x": 3470,
+        "y": 1335
+      },
+      "data": {
+        "id": "PSYCH271L",
+        "name": "Intro to Cognitive Science",
+        "group": "PSYCH",
+        "parent": "Professional_Electives_Group",
+        "description": "Cognitive science is an interdisciplinary field fundamentally concerned with furthering our understanding of the development, underlying processes, and implementation of language, perception, problem-solving, learning, memory, and other intelligent capacities. This course offers an introduction to this science for all levels of undergraduate majors in psychology, computer science, biology, and other related fields.",
+        "prereq_text": "None"
+      }
+    },
+    {
+      "position": {
+        "x": 3320,
+        "y": 1410
+      },
+      "data": {
+        "id": "SOCIOL262",
+        "name": "Criminology",
+        "group": "SOCIOL",
+        "parent": "Professional_Electives_Group",
+        "description": "This course examines sociological perspectives on why crime occurs, including the causes of crime, who commits crime, why some places have more crime that others, and how we can reduce crime. In this class, we will examine the historical foundations of crime, theoretical explanations for offending, and the measurement of crime. Additional topics may include juvenile delinquency, victimization, media portrayal of crime, and social and criminal justice responses to offending.",
+        "prereq_text": "Pre-requisite: SOCIOL 101"
+      }
+    },
+    {
+      "position": {
+        "x": 2390,
+        "y": 1875
+      },
+      "data": {
+        "id": "IA_IT360",
+        "name": "IT 360: Enterprise Software",
+        "group": "IT",
+        "parent": "Information_Architecture_Track",
+        "description": "Core applications of an organization to support business functions and the role of IT in competitive advantage.",
+        "prereq_text": "IT 110 or MSIS 110 and 60 credits.",
+        "isShared": true,
+        "originalId": "IT360"
+      }
+    },
+    {
+      "position": {
+        "x": 2680,
+        "y": 1875
+      },
+      "data": {
+        "id": "IA_IT428L",
+        "name": "IT 428L: Information System Security",
+        "group": "IT",
+        "parent": "Information_Architecture_Track",
+        "description": "Overview of threats to information systems and the tools/responsibilities needed to ensure security.",
+        "prereq_text": "IT 110 and 60 credits.",
+        "isShared": true,
+        "originalId": "IT428L"
+      }
+    },
+    {
+      "position": {
+        "x": 2390,
+        "y": 2000
+      },
+      "data": {
+        "id": "IA_IT456",
+        "name": "IT 456: Information Storage and Management",
+        "group": "IT",
+        "parent": "Information_Architecture_Track",
+        "description": "Review of basic relational database concepts and properties of relational database management systems.",
+        "prereq_text": "IT 110 OR MSIS 110 AND (MSIS 230L or IT 230L) OR MSIS 411.",
+        "isShared": true,
+        "originalId": "IT456"
+      }
+    },
+    {
+      "position": {
+        "x": 2680,
+        "y": 2000
+      },
+      "data": {
+        "id": "IA_IT460",
+        "name": "IT 460: Integration Methodologies and Tools",
+        "group": "IT",
+        "parent": "Information_Architecture_Track",
+        "description": "Applications architecture based on building IT systems out of common parts and service-oriented architecture.",
+        "prereq_text": "IT 110 and 60 credits.",
+        "isShared": true,
+        "originalId": "IT460"
+      }
+    },
+    {
+      "position": {
+        "x": 2390,
+        "y": 2130
+      },
+      "data": {
+        "id": "IA_IT461L",
+        "name": "IT 461L: System Analysis and Design",
+        "group": "IT",
+        "parent": "Information_Architecture_Track",
+        "description": "Recent approaches to the analysis and design of computer information systems using CASE tools.",
+        "prereq_text": "IT 110 and 60 credits.",
+        "isShared": true,
+        "originalId": "IT461L"
+      }
+    },
+    {
+      "position": {
+        "x": 2680,
+        "y": 2130
+      },
+      "data": {
+        "id": "IA_IT471",
+        "name": "IT 471: Data Warehousing for Business Intelligence",
+        "group": "IT",
+        "parent": "Information_Architecture_Track",
+        "description": "Technical skills required to plan and implement a data warehouse using a database management system.",
+        "prereq_text": "IT 110 or MSIS 110 and (IT/MSIS 230L or MSIS 411).",
+        "isShared": true,
+        "originalId": "IT471"
+      }
     }
   ],
   "edges": [
@@ -922,6 +2034,66 @@
       "data": {
         "source": "(CS240)",
         "target": "CS430"
+      }
+    },
+    {
+      "data": {
+        "source": "MATH115",
+        "target": "IT110"
+      }
+    },
+    {
+      "data": {
+        "source": "IT110",
+        "target": "IT111L"
+      }
+    },
+    {
+      "data": {
+        "source": "IT110",
+        "target": "MSIS111L"
+      }
+    },
+    {
+      "data": {
+        "source": "MATH115",
+        "target": "MATH125"
+      }
+    },
+    {
+      "data": {
+        "source": "IT116",
+        "target": "IT117"
+      }
+    },
+    {
+      "data": {
+        "source": "MATH115",
+        "target": "IT114L"
+      }
+    },
+    {
+      "data": {
+        "source": "MATH115",
+        "target": "IT116"
+      }
+    },
+    {
+      "data": {
+        "source": "IT110",
+        "target": "MSIS310"
+      }
+    },
+    {
+      "data": {
+        "source": "IT110",
+        "target": "IT244"
+      }
+    },
+    {
+      "data": {
+        "source": "IT110",
+        "target": "IT246"
       }
     }
   ]
